@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title> Java QUIZ </title>
+		<script src="check.js"></script>
+		<link rel="stylesheet" href="examStyle.css">
+	</head>
+	<body>
+		<div class="quiz-cont">
+			<h2> Изпит по Java - УКТЦ </h2>
+			<div class="question">
+				<p> С кой метод се изписва правилно "Hello, world!" в езика Java? </p>
+				<form name="q1">
+					<input type="radio" name="q1" id="1" value="syso"> System.out.println("Hello, world!"); </br>
+					<input type="radio" name="q1" id="2" value="cout"> cout << "Hello, world!"; </br>
+					<input type="radio" name="q1" id="3" value="syso"> print("Hello, world!") </br>
+				</form> 
+			</div>
+			<div class="question">
+				<p> Типът данни int е за създаване на променливи в които може да се съхраняват: </p>
+				<form name="q1"> 
+					<input type="radio" name="q2" id="4" value="syso"> десетични числа </br>
+					<input type="radio" name="q2" id="5" value="cout"> цели числа </br>
+					<input type="radio" name="q2" id="6" value="syso"> текст </br>
+				</form>
+			</div>
+			<div class="question">
+				<p> " int a = 5; a += 10; " Колко е стойността на променливата a: </p>
+				<form name="q1"> 
+					<input type="radio" name="q2" id="7" value="syso"> 5 </br>
+					<input type="radio" name="q2" id="8" value="cout"> 10 </br>
+					<input type="radio" name="q2" id="9" value="syso"> 15 </br>
+				</form>
+			</div>
+			<div class="question">
+				<p> "int b = 10; for (int i = 0; i < 5; i++) b += i;" Колко е стойността на променливата b: </p>
+				<form name="q1"> 
+					<input type="radio" name="q2" id="10" value="syso"> 10 </br>
+					<input type="radio" name="q2" id="11" value="cout"> 20 </br>
+					<input type="radio" name="q2" id="12" value="syso"> 30 </br>
+				</form>
+			</div>
+			<div class="question">
+				<p> "int[] arr = {1, 2, 3, 5}; for (int i = 0; i < arr.length; i++) arr[i] = 0;" Колко пъти се изпълнява цикълът: </p>
+				<form name="q1"> 
+					<input type="radio" name="q2" id="13" value="syso"> 4 </br>
+					<input type="radio" name="q2" id="14" value="cout"> 6 </br>
+					<input type="radio" name="q2" id="15" value="syso"> 8 </br>
+				</form>
+			</div>
+			<div class="question">
+				<p> Какво представялва рекурсията? </p>
+				<form name="q1"> 
+					<input type="radio" name="q2" id="16" value="syso"> Система за изпълнение на програмен код </br>
+					<input type="radio" name="q2" id="17" value="cout"> Паралено изпълнение на подпрограми </br>
+					<input type="radio" name="q2" id="18" value="syso"> Подпрограма, която извиква сама себе си  </br>
+				</form>
+			</div>
+			<div class="question">
+				<p> Какво представялва сортирането? </p>
+				<form name="q1"> 
+					<input type="radio" name="q2" id="19" value="syso"> Подреждане на елементи в структура по даден признак </br>
+					<input type="radio" name="q2" id="20" value="cout"> Намиране на елемент в дадена структура от данни по даден призанк </br>
+					<input type="radio" name="q2" id="21" value="syso"> Сравнение на структури от данни по даден признак  </br>
+				</form>
+			</div>
+			<!--<form name="student-info">
+				<input type="text" name="st-name" placeholder="Две имена">
+				<input type="number" name="course-num" placeholder="Курсов номер">
+			</form> -->
+			<input type="button" value="ИЗПРАТИ РЕШЕНИЕ" onclick="check()">
+		</div>
+	</body>
+</html>
